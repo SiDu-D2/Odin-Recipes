@@ -1,0 +1,40 @@
+body {
+    background-color:olivedrab;
+    background-image: linear-gradient(90deg, #b13c3c, #f0b8f1);
+
+}
+
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipes > .recipe-box {
+    flex: 1 1 160px;
+    box-shadow: 0 0 1px black;
+}
+
+img {
+
+    width:300px;
+}
+
+h1 {
+    font-family: "Odinson";
+    text-align: center;
+}
+
+#title {
+    border: solid 10px;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: "Odinson";
+    src: url(Resources/Odinson-224w.ttf);
+}
