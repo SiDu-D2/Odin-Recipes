@@ -146,3 +146,11 @@ a:hover {
 a:active {
     color: rgb(250, 167, 0)
 }
+
+.rec-name {
+    font-family: "Odinson";
+    margin: auto;
+    padding: 10%;
+    font-size: 40px;;
+    
+}
